@@ -9,7 +9,7 @@ After that, you need to provide a valid mongo database url, and set it. You can 
 Levels.setURL("mongodb://..."); // You only need to do this ONCE per process.
 ```
 
-*Examples assume that you have setted up the module as presented in 'Setting Up' section.*
+*Examples assume that you have set up the module as presented in 'Setting Up' section.*
 *Following examples assume that your `Discord.Client` is called `client`.*
 
 *Following examples assume that your `client.on("messageCreate", message` is called `message`.*

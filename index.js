@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 const mongoose = require('mongoose');
+const config = require('./config.js');
 const levels = require('./models/levels.js');
 const rewards = require('./models/rewards.js');
-let mongoUrl;
+let ***DATABASEURLGOESHERE***;
 
 // Checking if the person has NodeJS v16 or higher
 if(process.version.slice(1, 3) - 0 < 16) {
@@ -11,7 +12,7 @@ if(process.version.slice(1, 3) - 0 < 16) {
 	);
 }
 
-class DiscordXp {
+class NovacordXp {
 
 	/**
   * @param {string} [dbUrl] - A valid mongo database URI.
@@ -19,7 +20,7 @@ class DiscordXp {
 
 	static async setURL(dbUrl) {
 		if (!dbUrl) throw new TypeError('A database url was not provided.');
-		mongoUrl = dbUrl;
+		***DATABASEURLGOESHERE*** = dbUrl;
 		return mongoose.connect(dbUrl);
 	}
 
@@ -451,4 +452,4 @@ class DiscordXp {
 	}
 }
 
-module.exports = DiscordXp;
+module.exports = NovacordXp;

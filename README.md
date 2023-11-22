@@ -17,30 +17,8 @@ npm update novacord-xp
 ```
 
 # Changelog
-- **25 August 2022** (v1.1.18): `WARNING: This version contains breaking changes in the way the package parses number input!`
-  * The following methods now throw a TypeError if an invalid amount of xp was provided (xp is 0 or lower): `appendXp(), substractXp(), setXp()`
+- **22 November 2023** (v1.11.23): 
 
-- **07 August 2022** (v1.1.17):
-  * Adding cleanDatabase() method.
-  * Adding role rewards with the following methods: `createRoleReward(), deleteRoleReward(), fetchRoleReward()`
-
-- **27 May 2021** (v1.1.11):
-  * Adding deleteGuild() method.
-
-- **3 April 2021** (v1.1.10):
-  * Adding TS typings.
-
-- **25 February 2021** (v1.1.8):
-  * Preventing further deprection warnings to be displayed, if you encounter any of these deprecation issues, update the module.
-
-- **22 November 2020** (v1.1.7):
-
-`WARNING: This semi-major version contains breaking changes in the way leaderboard computing function works.`
-  * Added an optional `fetchPosition` argument to the `Levels.fetch` which will add the leaderboard rank as the `position` property. Caution: Will be slower on larger servers.
-  * `Levels.computeLeaderboard` is now asynchronous and can take in a third parameter called `fetchUsers` which will fetch all users on the leaderboard. This parameter **does not** require additional Gateway Intents. Caution: Will be substantially slower if you do not have `Guild_Members` intent and catch some users beforehand. 
-
-- **16 July 2020**:
-  * Added `xpFor` method to calculate xp required for a specific level.
 ```js
 /* xpFor Example */
 const Levels = require("Novacord-xp");
@@ -55,9 +33,9 @@ First things first, we include the module into the project.
 ```js
 const Levels = require("Novacord-xp");
 ```
-After that, you need to provide a valid mongo database url, and set it. You can do so by:
+After that, you need to provide a valid postgres database url, and set it. You can do so by:
 ```js
-Levels.setURL("mongodb://..."); // You only need to do this ONCE per process.
+Levels.setURL("Postgres://..."); // You only need to do this ONCE per process.
 ```
 
 # Examples
