@@ -20,11 +20,11 @@ Levels.setURL("mongodb://..."); // You only need to do this ONCE per process.
 
 # Examples
 Examples:
-- [Allocating Random XP For Each Message Sent](https://github.com/MrAugu/discord-xp/blob/master/test/README.md#allocating-random-xp-for-each-message-sent)
-- [Rank Command](https://github.com/MrAugu/discord-xp/blob/master/test/README.md#rank-command)
-- [Leaderboard Command](https://github.com/MrAugu/discord-xp/blob/master/test/README.md#leaderboard-command)
-- [Position of a user in the leaderboard](https://github.com/MrAugu/discord-xp/blob/master/test/README.md#position-of-a-user-in-the-leaderboard)
-- [Canvacord Integration](https://github.com/MrAugu/discord-xp/blob/master/test/README.md#canvacord-integration)
+- [Allocating Random XP For Each Message Sent](https://github.com/EngineerShawn/Novacord-xp/blob/master/test/README.md#allocating-random-xp-for-each-message-sent)
+- [Rank Command](https://github.com/EngineerShawn/Novacord-xp/blob/master/test/README.md#rank-command)
+- [Leaderboard Command](https://github.com/EngineerShawn/Novacord-xp/blob/master/test/README.md#leaderboard-command)
+- [Position of a user in the leaderboard](https://github.com/EngineerShawn/Novacord-xp/blob/master/test/README.md#position-of-a-user-in-the-leaderboard)
+- [Canvacord Integration](https://github.com/EngineerShawn/Novacord-xp/blob/master/test/README.md#canvacord-integration)
 
 ---
 

@@ -8,32 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrAugu/discord-xp.git"
+    "url": "git+https://github.com/EngineerShawn/novacord-xp"
   },
-  "keywords": [
-    "discord",
-    "economy",
-    "discord.js",
-    "bot",
-    "bots",
-    "leveling",
-    "levels",
-    "discord-levels",
-    "discord-xp",
-    "xp",
-    "mongo",
-    "mongoose",
-    "mongodb",
-    "discord-economy",
-    "discord-eco",
-    "framework"
-  ],
-  "author": "MrAugu",
+  "keywords": [],
+  "author": "EngineerShawn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MrAugu/discord-xp/issues"
+    "url": "https://github.com/EngineerShawn/Novacord-xp/issues"
   },
-  "homepage": "https://github.com/MrAugu/discord-xp#readme",
+  "homepage": "https://github.com/EngineerShawn/Novacord-xp#readme",
   "devDependencies": {
     "eslint": "^8.21.0",
     "eslint-config-standard": "^17.0.0",

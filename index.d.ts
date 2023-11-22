@@ -1,5 +1,5 @@
 // Type definitions for discord-xp v1.1.8
-// Project: https://github.com/MrAugu/discord-xp
+// Project: https://github.com/EngineerShawn/Novacord-xp
 // Definitions by: Nico Finkernagel <https://github.com/gruselhaus/>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 

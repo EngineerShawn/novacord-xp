@@ -1,19 +1,19 @@
-<p align="center"><a href="https://nodei.co/npm/discord-xp/"><img src="https://nodei.co/npm/discord-xp.png"></a></p>
-<p align="center"><img src="https://img.shields.io/npm/v/discord-xp"> <img src="https://img.shields.io/github/repo-size/MrAugu/discord-xp"> <img src="https://img.shields.io/npm/l/discord-xp"> <img src="https://img.shields.io/github/contributors/MrAugu/discord-xp"> <img src="https://img.shields.io/github/package-json/dependency-version/MrAugu/discord-xp/mongoose"> <a href="https://discord.gg/rk7cVyk"><img src="https://discordapp.com/api/guilds/630058179547627592/widget.png" alt="Discord server"/></a></p>
+<p align="center"><a href="https://nodei.co/npm/Novacord-xp/"><img src="https://nodei.co/npm/Novacord-xp.png"></a></p>
+<p align="center"><img src="https://img.shields.io/npm/v/Novacord-xp"> <img src="https://img.shields.io/github/repo-size/EngineerShawn/Novacord-xp"> <img src="https://img.shields.io/npm/l/Novacord-xp"> <img src="https://img.shields.io/github/contributors/EngineerShawn/Novacord-xp"> <img src="https://img.shields.io/github/package-json/dependency-version/EngineerShawn/Novacord-xp/mongoose"> <a href="https://discord.gg/rk7cVyk"><img src="https://discordapp.com/api/guilds/630058179547627592/widget.png" alt="Discord server"/></a></p>
 
-# Discord-Xp
+# Novacord-xp
 - A lightweight and easy to use xp framework for discord bots, uses MongoDB.
 - If you need help feel free to join our <a href="https://discord.gg/aP9UYfaFa4">discord server</a> to talk and help you with your code.
-- If you encounter any of those fell free to open an issue in our <a href="https://github.com/MrAugu/discord-xp/issues">github repository</a>.
+- If you encounter any of those fell free to open an issue in our <a href="https://github.com/EngineerShawn/Novacord-xp/issues">github repository</a>.
 
 # Download & Update
 You can download it from npm:
 ```cli
-npm i discord-xp
+npm i novacord-xp
 ```
 You can update to a newer version to receive updates using npm.
 ```cli
-npm update discord-xp
+npm update novacord-xp
 ```
 
 # Changelog
@@ -43,7 +43,7 @@ npm update discord-xp
   * Added `xpFor` method to calculate xp required for a specific level.
 ```js
 /* xpFor Example */
-const Levels = require("discord-xp");
+const Levels = require("Novacord-xp");
 // Returns the xp required to reach level 30.
 var xpRequired = Levels.xpFor(30);
 
@@ -53,7 +53,7 @@ console.log(xpRequired); // Output: 90000
 # Setting Up
 First things first, we include the module into the project.
 ```js
-const Levels = require("discord-xp");
+const Levels = require("Novacord-xp");
 ```
 After that, you need to provide a valid mongo database url, and set it. You can do so by:
 ```js
